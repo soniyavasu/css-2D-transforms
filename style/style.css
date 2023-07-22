@@ -1,0 +1,108 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+h1{
+	text-align:center;
+	text-decoration-line:underline;
+	text-decoration-style:double;
+}
+.flex-content{
+	display:flex;
+	flex-wrap:wrap;
+	padding-right:30px;
+	justify-content:space-evenly;	
+}
+.flex-content1{
+	padding:15px;
+	margin:10px;
+}
+img{
+	width:200px;
+	height:200px;
+}
+h2
+.image-one:hover{
+	 transform: translate(50px,100px);
+}
+.image-two img:hover{
+	 transform: rotate(2000deg);	
+	 transition-duration:3s;
+}
+.image-three img:hover{
+	transform:scale(2, 2);
+}
+.image-four img:hover{
+	transform: scaleX(2);
+}
+.image-five img:hover{
+	 transform: scaleY(3);
+}
+.image-six img:hover{
+	transform: skew(20deg,10deg);
+}
+.image-seven img:hover{
+	transform: skewX(20deg);
+}
+.image-eight img:hover{
+	transform: skewY(20deg);
+}
+.image-nine img:hover{
+	transform: matrix(1, 0, 0.5, 1, 150, 0);
+}
+
+
+
+.Property{
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+}
+.Property:hover {
+  width: 300px;
+}
+.duration {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition-property: width;
+  transition-duration: 5s;
+}
+
+.duration:hover {
+  width: 300px;
+}
+
+.red{
+  width: 100px;
+  height: 50px;
+  background: red;
+  color: white;
+  font-weight: bold;
+  transition: width 2s;
+}
+
+#div1 {transition-timing-function: linear;}
+#div2 {transition-timing-function: ease;}
+#div3 {transition-timing-function: ease-in;}
+#div4 {transition-timing-function: ease-out;}
+#div5 {transition-timing-function: ease-in-out;}
+
+.red:hover {
+  width: 300px;
+}
+
+.delay{
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition-property: width;
+  transition-duration: 5s;
+  transition-delay: 2s;
+}
+
+.delay:hover {
+  width: 300px;
+}
